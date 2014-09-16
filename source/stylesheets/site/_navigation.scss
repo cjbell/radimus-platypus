@@ -37,7 +37,8 @@
 @include media-query($tablet-min-width) {
   .site-nav__item {
     padding: 0 .75em;
-    display: inline-block;
+    display: block;
+    float: left;
   }
 
   .site-nav__item--last {
