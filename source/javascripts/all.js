@@ -7,4 +7,8 @@ if (swipeCont) {
   swipeCont.addEventListener('click', function(){
     swipe.next();
   });
+
+  window.setInterval(function(){
+    swipe.next();
+  }, 2000);
 }
