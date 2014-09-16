@@ -10,5 +10,5 @@ if (swipeCont) {
 
   window.setInterval(function(){
     swipe.next();
-  }, 2000);
+  }, 7000);
 }
