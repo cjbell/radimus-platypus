@@ -1,0 +1,15 @@
+.mailing-list {
+  display: inline-block;
+}
+
+.mailing-list__input {
+  border: 1px solid #ccc;
+  padding: .4em .25em;
+  font-size: 14px;
+  @include appearance(none);
+  width: 200px;
+
+  &:focus {
+    border-color: $highlight;
+  }
+}

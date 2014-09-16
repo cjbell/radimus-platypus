@@ -1,0 +1,10 @@
+$highlight: #0E76BC;
+
+$tablet-min-width: "(min-width: 38em)";
+$desktop-min-width: "(min-width: 48em)";
+
+@mixin media-query($media-query) {
+  @media #{$media-query} {
+    @content;
+  }
+}

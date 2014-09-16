@@ -1,0 +1,22 @@
+.social-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px; height: 20px;
+  background-position: center center;
+}
+
+.social-icon__text {
+  display: none;
+}
+
+.social-icon--facebook {
+  background-image: image-url("facebook.svg");
+}
+
+.social-icon--twitter {
+  background-image: image-url("twitter.svg");
+}
+
+.social-icon--instagram {
+  background-image: image-url("instagram.svg");
+}

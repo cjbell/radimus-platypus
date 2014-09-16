@@ -1,0 +1,45 @@
+<header class="site-header">
+  <nav class="site-nav">
+    <ul class="site-nav__items">
+      <li class="site-nav__item">
+        <a href="/" class="site-nav__item__link <%= 'is-selected' if current_page?("home") %>">
+          Home
+        </a>
+      </li>
+      <li class="site-nav__item">
+        <a href="/kickstarter.html" class="site-nav__item__link <%= 'is-selected' if current_page?("kickstarter") %>">
+          Kickstarter
+        </a>
+      </li>
+      <li class="site-nav__item">
+        <a href="/about-radimus.html" class="site-nav__item__link <%= 'is-selected' if current_page?("about-radimus") %>">
+          About Radimus
+        </a>
+      </li>
+      <li class="site-nav__item">
+        <a href="/about-mikey.html" class="site-nav__item__link <%= 'is-selected' if current_page?("about-mikey") %>">
+          About Mikey
+        </a>
+      </li>
+      <li class="site-nav__item">
+        <span class="site-nav__item__text">Follow</span>
+
+        <a href="https://www.instagram.com/radimusplatypus" class="social-icon social-icon--instagram">
+          <span class="social-icon__text">Instagram</span>
+        </a>
+
+        <a href="https://www.facebook.com/radimusplatypus" class="social-icon social-icon--facebook">
+          <span class="social-icon__text">Facebook</span>
+        </a>
+      </li>
+      <li class="site-nav__item site-nav__item--last">
+        <span class="site-nav__item__text">Join our newsletter</span>
+
+        <form class="mailing-list">
+          <input class="mailing-list__input"
+            type="text" name="EMAIL" placeholder="Enter your email address">
+        </form>
+      </li>
+    </ul>
+  </nav>
+</header>

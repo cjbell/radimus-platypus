@@ -1,0 +1,4 @@
+.site-header {
+  @extend %l-wrap;
+  border-bottom: 2px solid $highlight;
+}
