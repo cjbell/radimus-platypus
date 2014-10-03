@@ -1,3 +1,18 @@
+.kickstarter-badge {
+  position: absolute;
+  top: 20px; right: 0;
+  z-index: 2;
+  max-width: 200px;
+
+  @include media-query($tablet-min-width) {
+    max-width: 100%;
+  }
+}
+
+.main {
+  position: relative;
+}
+
 .rad-logo {
   text-align: center;
   max-width: 600px;

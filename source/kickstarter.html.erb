@@ -10,10 +10,10 @@ current: kickstarter
     </figure>
   </div>
   <div class="content-page__text">
-    <%= image_tag "kickstarter.png",
-          alt: "Support us on Kickstarter", class: "content-page__title content-page__title--kickstarter" %>
-
-    <p>Our Kickstarter campaign goes live on Tuesday September 30th!</p>
+    <%= link_to image_tag("kickstarter.png",
+          alt: "Support us on Kickstarter",
+          class: "content-page__title content-page__title--kickstarter"),
+          'https://www.kickstarter.com/projects/1245971896/the-radventures-of-radimus-platypus' %>
 
     <p>Our goal of $40,000 will fund the cost of all legal and corporation fees, copy editing, obtaining ISBN numbers, printing the first run of 5,000 books of vol. 1 The Hatch, and packaging and shipping.</p>
 
